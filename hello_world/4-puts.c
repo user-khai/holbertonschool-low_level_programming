@@ -1,6 +1,10 @@
 #include <stdio.h>
-/*
- *@brief prints a sentence and appends a newline
+/**
+ * main - Entry point
+ *
+ * Description: Prints a sentence and appends a newline
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
