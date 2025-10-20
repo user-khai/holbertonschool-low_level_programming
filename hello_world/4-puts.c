@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- *@brief prints a sentence and appends a newline 
+ *@brief prints a sentence and appends a newline
  */
 int main(void)
 {
