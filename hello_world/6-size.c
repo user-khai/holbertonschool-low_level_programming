@@ -2,7 +2,7 @@
 /**
  * main - entry point
  *
- * Description: Outputs the sizes of variable types based on architecture options
+ * Description: Outputs sizes of variable types based on architecture options
  *
  * Return: Always 0 (Success)
  */
