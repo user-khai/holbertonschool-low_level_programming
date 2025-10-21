@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+#include <stdio.h>
 
 /**
  * main - entry point
@@ -19,7 +19,7 @@ int main(void)
     } else if (n == 0) {
         printf("%d is zero\n", n);
     } else {
-        printf("%d is negative\n", n):
+        printf("%d is negative\n", n);
     }
 	return (0);
 }
