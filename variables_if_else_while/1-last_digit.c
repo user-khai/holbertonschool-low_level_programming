@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry Point 
- * Description: Prints whether the last digit of a random number is greater than 5, 0, or neither
- * Return: Always 0 (Success) 
+ * main - Entry Point
+ * Description: Prints condition of the number's last digit
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -23,7 +23,7 @@ int main(void)
 		printf("Last digit of %d is %d and is 0\n", n, last_digit);
 	} else
 	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, last_digit);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n",n,last_digit);
 	}
 	return (0);
 }
