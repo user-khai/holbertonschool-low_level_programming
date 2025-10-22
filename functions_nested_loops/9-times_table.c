@@ -19,7 +19,15 @@ void times_table(void)
 		while (b < 10)
 		{
 			c = a * b;
-			_putchar(c + '0');
+			
+			if (c < 10)
+			{
+				_putchar(c + '0');
+			}
+			else
+			{
+				_putchar((c / 10) + '0');
+				_putchar((c % 10) + '0');
 			if (b < 9)
 			{
 				_putchar(',');
