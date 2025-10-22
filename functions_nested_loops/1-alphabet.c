@@ -13,15 +13,3 @@ void print_alphabet(void)
 		c++;
 	}
 }
-
-/**
- * main - entry point
- * Description: calls the print_alphabet function
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-	print_alphabet();
-	_putchar('\n');
-	return (0);
-}
