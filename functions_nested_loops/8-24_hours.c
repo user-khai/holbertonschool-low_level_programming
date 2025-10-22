@@ -19,6 +19,10 @@ void jack_bauer(void)
 			_putchar((minute % 10) + '0');
 			_putchar('\n');
 			minute++;
+			if (minute > 59)
+			{
+				minute = 0;
+			}
 		}
 		hour++;
 	}
