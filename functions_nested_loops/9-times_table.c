@@ -13,6 +13,7 @@ void times_table(void)
 	{
 		if (b > 9)
 		{
+			_putchar('\n');
 			b = 0;
 		}
 		while (b < 10)
