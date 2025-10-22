@@ -2,8 +2,8 @@
 
 /**
  * main - entry point
- * description: prints integers 0-9
- * return: always 0 (success)
+ * Description: prints integers 0-9
+ * Return: always 0 (success)
  */
 int main(void)
 {
