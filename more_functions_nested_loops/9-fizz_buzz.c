@@ -5,7 +5,7 @@
  * Description: Prints 1-100, unless they're multiples of 3 and 5
  * Return: Alway 0 (Success)
  */
-int main(void)
+void main(void)
 {
 	int i = 1;
 
@@ -33,6 +33,5 @@ int main(void)
 			printf(" ");
 		}
 	}
-	return (0);
 }
 
