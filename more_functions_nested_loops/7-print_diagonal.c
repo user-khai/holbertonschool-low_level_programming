@@ -8,6 +8,7 @@
 void print_diagonal(int n)
 {
 	int count = 0;
+	int space = 0;
 
 	if (n <= 0)
 	{
@@ -17,14 +18,16 @@ void print_diagonal(int n)
 	{
 		while (count < n)
 		{
-			if (count != n - 1)
+			while (space != count)
 			{
 				_putchar(' ');
+				space++;
 			}
-			else
+			if (space == count)
 			{
 				_putchar('\\');
 			}
+			space = 0;
 			count++;
 		}
 		_putchar('\n');
