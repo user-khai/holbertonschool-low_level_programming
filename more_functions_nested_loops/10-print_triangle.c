@@ -7,7 +7,7 @@
  */
 void print_triangle(int size)
 {
-	int count = 0;
+	int count = 1;
 	int space = 0;
 
 	if (size <= 0)
@@ -16,14 +16,14 @@ void print_triangle(int size)
 	}
 	else
 	{
-		while (count < size)
+		while (count < size + 1)
 		{
 			while (space < size - count)
 			{
 				_putchar(' ');
 				space++;
 			}
-			while (space < size)
+			while (space < size + 1)
 			{
 				_putchar('#');
 				space++;
