@@ -23,7 +23,7 @@ void print_triangle(int size)
 				_putchar(' ');
 				space++;
 			}
-			while (space < size + 1)
+			while (space < size)
 			{
 				_putchar('#');
 				space++;
