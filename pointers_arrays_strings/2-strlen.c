@@ -10,7 +10,7 @@ int _strlen(char *s)
 	int len = 0;
 	char i;
 
-	if (*s == '')
+	if (!*s)
 	{
 		return (0);
 	}
