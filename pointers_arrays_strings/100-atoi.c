@@ -15,6 +15,10 @@ int _atoi(char *s)
 		{
 			sign *= -1;
 		}
+		else if (digit)
+		{
+			break;
+		}
 		else if (s[i] >= '0' && s[i] <= '9')
 		{
 			while (s[i] >= '0' && s[i] <= '9')
@@ -23,10 +27,6 @@ int _atoi(char *s)
 				res = res * 10 + (s[i] - '0');
 				i++;
 			}
-		}
-		else if (digit)
-		{
-			break;
 		}
 		i++;
 	}
