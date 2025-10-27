@@ -7,7 +7,7 @@
  */
 int _atoi(char *s)
 {
-	int i = 0, sign = 1, res = 0;
+	int i = 0, sign = 1, res = 0, digit;
 
 	while (s[i] != '\0')
 	{
@@ -19,11 +19,16 @@ int _atoi(char *s)
 		{
 			while (s[i] >= '0' && s[i] <= '9')
 			{	
+				digit = 1;
 				res = res * 10 + (s[i] - '0');
 				i++;
 			}
+		else if (digit)
+		{
 			break;
 		}
+		}
+		i++;
 	}
 	return (sign * res);
 }
