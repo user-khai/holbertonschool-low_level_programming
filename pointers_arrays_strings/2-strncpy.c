@@ -14,6 +14,7 @@ char *_strncpy(char *dest, char *src, int n)
 	while (src[i] != '\0' && i < n)
 	{
 		dest[i] = src[i];
+		printf("0x%02x\n", dest[i]);
 		i++;
 	}
 	while (i < n)
