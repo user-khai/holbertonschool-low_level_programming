@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strscpn - gets the length of a prefix substring
+ * _strspn - gets the length of a prefix substring
  * @s: char pointer to string
  * @accept: char pointer to string
  * Return: number of bytes in s found in accept
@@ -35,5 +35,5 @@ unsigned int _strspn(char *s, char *accept)
 			break;
 		}
 	}
-	return count;
+	return (count);
 }
