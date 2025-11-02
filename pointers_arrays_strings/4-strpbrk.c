@@ -23,5 +23,5 @@ char *_strpbrk(char *s, char *accept)
 		count = 0;
 		s++;
 	}
-	return (NULL);
+	return (0);
 }
