@@ -13,8 +13,9 @@ unsigned int _strspn(char *s, char *accept)
 
 	while (*s != '\0')
 	{
-		found = 0;
 		char *a_ptr = accept;
+		
+		found = 0;
 
 		while (*a_ptr != '\0')
 		{
