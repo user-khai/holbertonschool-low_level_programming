@@ -16,7 +16,7 @@ char *_strpbrk(char *s, char *accept)
 		{
 			if (*s == accept[count])
 			{
-				return(s);
+				return (s);
 			}
 			count++;
 		}
